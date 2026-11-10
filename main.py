@@ -3,11 +3,26 @@ from pyscript import document, display
 def check_country(e):
     document.getElementById("output1").innerHTML = ""
     country= {
-        "ph": "Philippines",
-        "au": "Australia",
-        "jp": "Japan",
-        "fr": "France",
-        "sg": "Singapore"
+        "H": "Hydrogen",
+        "He": "Helium",
+        "C": "Carbon",
+        "N": "Nitrogen",
+        "O": "Oxygen"
+        "F": "Fluorine",
+        "Ne": "Neon",
+        "P": "Phosphorus",
+        "S": "Sulfer",
+        "Cl": "Chlorine",
+        "Ar": "Argon",
+        "Se": "Selenium",
+        "Br": "Bromine",
+        "Kr": "Krypton",
+        "I": "Iodine",
+        "Xe": "Xenon"
+        "At": "Astatine",
+        "Rn": "Radon",
+        "Ts": "Tennessine",
+        "Og": "Oganesson",
 
     }
 
